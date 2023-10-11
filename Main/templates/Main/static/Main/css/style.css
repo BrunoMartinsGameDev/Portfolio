@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: sans-serif;
+}
+
+header {
+    height: 15vh;
+    padding: 0 20px;
+    font-size: 1.5rem;
+    background-color: rgb(33, 33, 33);
+    color: rgb(227, 227, 227);
+}
+
+.headerContent {
+    margin: 0 auto;
+    height: 100%;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.headerContent>nav>ul {
+    display: flex;
+    list-style: none;
+}
+
+.headerContent>nav>ul>li {
+    padding: 10px;
+}
+
+.headerContent>nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+
+.headerContent>nav>ul>li>a:hover {
+    color: #ff0000;
+}
+
+main {
+    color: white;
+    background-color: rgb(82, 82, 82);
+}
+
+.mainContent {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 8rem 0;
+}
+
+.line {
+    border: 1px solid white;
+    margin: 8rem 0 3rem 0;
+}
+
+.presentantionContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainTitle {
+    font-size: 70px;
+    font-weight: 100;
+    animation: moveLeftToRight 1s linear;
+}
+
+.centerText {
+    text-align: center;
+    animation: none;
+}
+
+.mainImg {
+    margin-top: -5rem;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    animation: moveRightToLeft 1s linear;
+}
+
+@keyframes moveRightToLeft {
+    0% {
+        transform: translateX(500px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 100%;
+    }
+}
+
+@keyframes moveLeftToRight {
+    0% {
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 100%;
+    }
+}
+.card{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.cardHead {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(33, 33, 33);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.cardBody {
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.card h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    gap: 0 10rem;
+    flex-wrap: wrap;
+}
+.card li {
+    margin-bottom: 5px;
+    margin-right: 1rem;
+}
+
+.card p {
+    font-size: 20px;
+}

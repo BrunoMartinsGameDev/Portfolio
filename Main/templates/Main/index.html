@@ -1,0 +1,32 @@
+{% extends 'Main/base.html' %}
+{% load static %}
+{% block content %}
+<div class="mainContent">
+    <div class="presentantionContent">
+        <h1 class="mainTitle">I'm Bruno Martins, <br> Web and Game developer</h1>
+        <img class="mainImg" src="{% static 'Main/img/me.png' %}" alt="">
+    </div>
+    <div class="line"></div>
+    <div class="recentProjectsContent">
+        <h1 class="mainTitle centerText">Recent Projects</h1>
+        <div class="projects">
+            <div class="card">
+                <div class="cardHead">
+                    <img src="{% static 'Main/img/tres.jpeg' %}" alt="Imagem">
+                </div>
+                <div class="cardBody">
+                    <h2>Título</h2>
+                    <ul>
+                        <li>Tecnologia 1</li>
+                        <li>Tecnologia 2</li>
+                        <li>Tecnologia 3</li>
+                    </ul>
+                    <p>Breve descrição</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
