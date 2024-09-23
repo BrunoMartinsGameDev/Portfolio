@@ -1,6 +1,6 @@
 {
-  "homepage": "https://brunomartinsgamedev.github.io/Portfolio/",
   "name": "portfolio",
+  "homepage": "https://brunomartinsgamedev.github.io/Portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
