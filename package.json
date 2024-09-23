@@ -1,4 +1,5 @@
 {
+  "homepage": "https://brunomartinsgamedev.github.io/Portfolio/",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -31,6 +32,5 @@
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
     "vite": "^5.4.1"
-  },
-  "homepage": "https://brunomartinsgamedev.github.io/Portfolio/"
+  }
 }
