@@ -1,10 +1,13 @@
+import { BrowserRouter } from 'react-router-dom'
 import './App.css'
 
 function App() {
 
   return (
     <>
-     <h1>Portfolio</h1>
+      <BrowserRouter basename="/Portfolio">
+        <h1>Portfolio</h1>
+      </BrowserRouter>
     </>
   )
 }
