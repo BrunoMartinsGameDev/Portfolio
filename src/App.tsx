@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename="/Portfolio">
+      <BrowserRouter>
         <h1>Portfolio</h1>
       </BrowserRouter>
     </>
