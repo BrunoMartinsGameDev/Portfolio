@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <h1>Portfolio</h1>
+        <h1>Portfolio Jprog</h1>
       </BrowserRouter>
     </>
   )
