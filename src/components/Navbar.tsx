@@ -17,7 +17,7 @@ const Navbar = ({ onSectionChange }: NavbarProps) => {
   return (
     <nav className="navbar fixed-navbar">
       <div className="navbar-content">
-        <span className="navbar-logo">Bruno Martins de Abreu - Dev FullStack & Game Dev</span>
+        <span className="navbar-logo">Bruno Martins de Abreu - Dev FullStack & Game Dev Unity</span>
         <ul className="navbar-list desktop">
           <li onClick={() => handleMenuClick('about')}><FaUser /> Sobre mim</li>
           <li onClick={() => handleMenuClick('projects')}><FaFolderOpen /> Projetos</li>
