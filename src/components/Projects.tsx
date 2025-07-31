@@ -18,6 +18,14 @@ export const projects: Project[] = [
     link: 'https://brunomartinsgamedev.github.io/Sorteador-de-Equipes'
   },
   {
+    title: 'Gerador de QRCODE',
+    image: 'projects/qrCodeGenerator/mainImage.png',
+    description: 'Um gerador de QRCODE simples e eficiente.',
+    details: 'Este projeto permite que os usuários gerem códigos QR personalizados com facilidade. Desenvolvido com HTML, CSS e JavaScript, é uma ferramenta útil para quem deseja compartilhar informações de forma rápida e prática. Podendo ser utilizado para links, textos, contatos e muito mais.',
+    repo: 'https://github.com/BrunoMartinsGameDev/geradorQrCode',
+    link: 'https://brunomartinsgamedev.github.io/geradorQrCode'
+  },
+  {
     title: 'Falling Sand',
     image: 'projects/fallingsand/mainImage.png',
     description: 'Um simulador interativo de areia caindo feito em Python com pygame.',
