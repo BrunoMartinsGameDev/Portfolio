@@ -18,6 +18,14 @@ export const projects: Project[] = [
     link: 'https://brunomartinsgamedev.github.io/Sorteador-de-Equipes'
   },
   {
+    title: 'Roleta de Nomes',
+    image: 'projects/roletaDeNomes/mainImage.png',
+    description: 'Sorteie nomes, monte equipes automaticamente e exporte tudo para Excel.',
+    details: 'A Roleta de Nomes é uma ferramenta interativa para sorteio de nomes e formação de equipes, com visual animado, tema escuro/moderno e exportação fácil para Excel. Permite arrastar membros entre equipes e alternar entre tema claro e escuro. Desenvolvido com HTML, CSS e JavaScript puro.',
+    repo: 'https://github.com/BrunoMartinsGameDev/RoletaDeNomes',
+    link: 'https://brunomartinsgamedev.github.io/RoletaDeNomes'
+  },
+  {
     title: 'Gerador de QRCODE',
     image: 'projects/qrCodeGenerator/mainImage.png',
     description: 'Um gerador de QRCODE simples e eficiente.',
